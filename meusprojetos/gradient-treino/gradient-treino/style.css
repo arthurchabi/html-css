@@ -2,7 +2,7 @@
 
 @font-face {
     font-family:'idroid' ;
-    src: url('font/idroid.otf') format('opentype'), url('font/idroid.ttf') format('truetype');
+    src: url('../font/idroid.otf') format('opentype'), url('font/idroid.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -30,7 +30,7 @@ main {
 }
 
 a{
-    color: red;
+    color: blue;
 }
 
 
