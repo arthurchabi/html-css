@@ -4,15 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudo de Iframes</title>
+
+    <style>
+        iframe{
+            height: 400px;
+            width: 400px;
+        }
+    </style>
+
 </head>
 <body>
+
     <h1>Testando o uso de um Iframe</h1>
-    <p>Acessando o site do <iframe src="https://cursoemvideo.com" frameborder="0"></iframe> para aprender a programar.</p>
+    
+    <p>Acessando o site do 
 
-    <p>O site do <iframe src="https://www.google.com.br" frameborder="0"></iframe> também é muito legal!</p>
+        <iframe src="https://www.cursoemvideo.com" frameborder="0" height="500px" scrolling="no">
+            <a href="https://www.cursoemvideo.com" target="_blank">Curso em Vídeo</a>
+        </iframe> 
 
-    <!-- É um elemento HTML que permite incorporar outro documento HTML em uma página web. Essencialmente, ele cria um "quadro" dentro da página, onde um conteúdo externo é exibido como se fizesse parte da página original.
-     
-    Nem todos os sites podem ser utilizados em um iframe-->
+        para aprender a programar.</p>
+
+    <p>O site do
+        
+        <iframe src="https://www.google.com.br" frameborder="0">
+            <a href="https://www.google.com.br">Google</a>
+        </iframe>
+        
+    também é muito legal, pena que não funciona :(.</p>
+
+    <p>O repositório do Guanabara 
+
+        <iframe src="https://gustavoguanabara.github.io" frameborder="0" width="500px" scrolling="no">
+            <a href="https://gustavoguanabara.github.io" target="_blank">GitHub</a>
+        </iframe>
+
+       também é legal</p>
 </body>
 </html>
